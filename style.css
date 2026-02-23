@@ -1,7 +1,9 @@
+/* Sayfanın genel arka plan rengi */
 body {
     background: #FFFFFF;
 }
 
+/* Logoyu yatayda ortalamak için Flexbox kullanıyoruz */ 
 .logo {
     width: 351;
     height: 113;
@@ -29,6 +31,7 @@ p {
     border: 1px solid;
 }
 
+/* 3 sütunlu alt bölümün Flexbox ızgara yapısı */
 .container {
     display: flex;
     gap: 2px;
